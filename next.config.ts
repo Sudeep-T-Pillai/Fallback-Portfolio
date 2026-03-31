@@ -8,7 +8,6 @@ const nextConfig: NextConfig = {
     path: "",
   },
   basePath: "/Fallback-Portfolio" ,
-  assetPrefix: "/Fallback-Portfolio/",
   output: "export",
 }
 export default nextConfig;
