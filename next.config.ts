@@ -1,12 +1,11 @@
-const repoName = "Fallback-Portfolio";
+import type { NextConfig } from "next";
 
-const nextConfig = {
-  output: 'export',
-  basePath: `/${repoName}`,
-  assetPrefix: `/${repoName}/`,
+const nextConfig: NextConfig = {
+  /* config options here */
+  reactStrictMode: true,
   images: {
-    unoptimized: true,
+    loader: "akamai",
+    path: "",
   },
-};
-
-module.exports = nextConfig;
+}
+export default nextConfig;
