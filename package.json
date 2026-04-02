@@ -6,9 +6,7 @@
     "dev": "next dev",
     "start": "next start",
     "export": "next build",
-    "build": "NEXT_RUNTIME=webpack next build ",
-    "deploy": "NEXT_RUNTIME=webpack next build && touch out/.nojekyll && gh-pages -d out",  
-
+    "build": "next build ",
     "lint": "eslint"
   },
   "dependencies": {
